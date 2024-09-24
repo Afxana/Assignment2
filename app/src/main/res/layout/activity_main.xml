@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Explore our flavors"
+        android:textSize="30sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="16dp"
+        android:layout_gravity="center"
+        />
+
+    <ImageView
+        android:id="@+id/cappuccino"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:src="@drawable/cappuccino"
+        android:layout_marginBottom="20dp"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cappuccino"
+        android:textSize="20sp"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"
+        />
+
+    <Button
+        android:id="@+id/change"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:text="Change"
+        android:textSize="15sp"
+        android:background="@color/design_default_color_secondary_variant"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        />
+
+    <Button
+        android:id="@+id/customize"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:text="Customize your coffee"
+        android:textSize="15sp"
+        android:background="@color/design_default_color_secondary_variant"
+        android:layout_gravity="center"/>
+
+
+</LinearLayout>
